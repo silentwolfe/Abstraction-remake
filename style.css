@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&family=Work+Sans:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 20px 27px;
+  color: white;
+}
+.sec-header {
+  display: flex;
+  /* margin: 0 auto; */
+  /* min-width: 2200px; */
+  align-items: center;
+}
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.opacity {
+  transition: 200ms ease-in;
+}
+.opacity:hover {
+  opacity: .89;
+}
+/* creating the Abstraction Logo */
+.logo_container {
+  background-color: whitesmoke;
+  width: 33px;
+  height: 33px;
+  position: relative;
+  border-radius: 10px;
+}
+.contained {
+  margin-left: 4.3rem;
+  margin-right: .4rem;
+}
+.topline {
+  width: 20px;
+  background-color: black;
+  height: 3px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.rightline {
+  width: 3px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  top: 5px;
+  left: 25px;
+}
+.ball {
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 6px;
+}
+.innerball {
+  width: 9px;
+  height: 9px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.unchange {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.smaller {
+  font-size: 23px;
+  margin-right: 6px;
+}
+.divider {
+  margin: 0 6px;
+}
+.push_to_end {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+.aside {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(36, 34, 34);
+  font-size: 25px;
+  padding: .5rem .9rem;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 1rem;
+}
+.f_aside {
+  border-radius: 5px;
+  background-color: 
+  #4C5FD5;
+  font-size: 25px;
+  padding: .5rem 2rem;
+  font-family: 'Roboto', sans-serif;
+
+  margin-right: 3rem;
+}
+/* Done with the header */
+
+.the_blue_section {
+  background-color: #dadbf1;
+  height: 60vh;
+}
+.the_blue_sects_h1 {
+  color: #000;
+  font-size: 4.5rem;
+  font-weight: 590;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.5rem;
+  box-shadow: 2px 2px 2.5pt 0.2pt #000000;
+  width: 60%;
+  height: 18%;
+  padding-left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  position: relative;
+  transition: 1s;
+}
+
+input:hover,input:focus {
+  border: 1px solid 
+  #4C5FD5 !important;
+  outline:  none;
+}
+.the_sec_sect {
+  background-color: #fff;
+  display: grid;
+  place-items: center;
+  max-width: 1110px;
+  margin: 15% auto 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+.col2 {
+  display: flex;
+}
+.theimage {
+  width: 20%;
+  align-self: flex-start;
+  margin-right: 2rem;
+}
+.col {
+  line-height: 2rem;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 5.5rem;
+  margin-right: 1.5rem;
+}
+.pp {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: normal;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  padding-bottom: 1.5rem;
+}
+.immediate_child {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 1400px;
+  margin: 0 auto;
+  /* background-color: red; */
+  padding: 2.5rem 5rem;
+}
+.child {
+  /* margin-right: 3rem; */
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+}
+.child > h3 {
+  font-size: 23px;
+}
+.child > ul {
+  margin-top: 1.5rem;
+}
+.four {
+  margin-right: 0;
+}
+ul {
+  list-style-type: none;
+  cursor: pointer;
+  line-height: 1.5rem;
+}
+.lower {
+  margin-top: 2rem;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 240px;
+  min-height: 100%;
+  flex-grow: 1;
+  justify-content: end;
+  padding-top: 10rem;
+  padding-left: 0;
+}
+.f-e {
+  justify-self: flex-end;
+  font-size: 1.1em;
+  line-height: 1.5rem;
+  text-align: left;
+  font-family: 'Work Sans', sans-serif;
+}
+.bottom {
+  margin-bottom: 1.5em;
+}
+.p-b {
+  padding: .7rem 1.5rem;
+  background-color: rgb(83, 83, 185);
+  color: white;
+  position: fixed;
+  font-size: 9px;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+  border-radius: 25px;
+}
